@@ -1,0 +1,26 @@
+{
+  "name": "@fzf404/stylelint-config",
+  "version": "0.0.0",
+  "description": "Stylelint config by fzf404",
+  "license": "MIT",
+  "main": "config.js",
+  "files": [
+    "config.js"
+  ],
+  "scripts": {
+    "lint": "stylelint --cache --fix .",
+    "format": "prettier --cache --write ."
+  },
+  "peerDependencies": {
+    "stylelint": "^15.0.0"
+  },
+  "dependencies": {
+    "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint-prettier": "^4.0.2"
+  },
+  "devDependencies": {
+    "@fzf404/prettier-config": "^0.5.0",
+    "prettier": "^3.0.1"
+  },
+  "prettier": "@fzf404/prettier-config"
+}
