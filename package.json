@@ -1,6 +1,6 @@
 {
   "name": "@fzf404/stylelint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Stylelint config by fzf404",
   "license": "MIT",
   "main": "config.js",
