@@ -25,11 +25,11 @@ Edit `package.json` ( 编辑 `package.json` )
 ```jsonc
 // script
 "scripts": {
-  "lint": "stylelint --cache --fix ."
+  "lint": "stylelint --cache --fix '**/*.scss'",
 }
 
 // config
-"stylelintConfig": {
+"stylelint": {
   "extends": [
     "@fzf404/stylelint-config"
   ]
