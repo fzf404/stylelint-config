@@ -1,6 +1,6 @@
 {
   "name": "@fzf404/stylelint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Stylelint config by fzf404",
   "license": "MIT",
   "homepage": "https://github.com/fzf404/stylelint-config",
@@ -24,7 +24,7 @@
     "stylelint-prettier": "^4.0.2"
   },
   "devDependencies": {
-    "@fzf404/prettier-config": "^0.5.0",
+    "@fzf404/prettier-config": "^0.5.3",
     "prettier": "^3.0.1"
   },
   "prettier": "@fzf404/prettier-config",
