@@ -18,7 +18,7 @@ dependencies:
 devDependencies:
   '@fzf404/prettier-config':
     specifier: ^0.5.3
-    version: 0.5.3(postcss@8.4.27)(prettier@3.0.2)
+    version: 0.5.4(postcss@8.4.27)(prettier@3.0.2)
   prettier:
     specifier: ^3.0.1
     version: 3.0.2
@@ -255,15 +255,15 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: false
 
-  /@fzf404/prettier-config@0.5.3(postcss@8.4.27)(prettier@3.0.2):
-    resolution: {integrity: sha512-ezIJnmAhM4LwT/gMdfhdVK8nLEr9O0+m13TRzkxAmgIhItx40TjenO7r0l1EnIq/DkpGbFUTICPv1sa6Ez0EGQ==}
+  /@fzf404/prettier-config@0.5.4(postcss@8.4.27)(prettier@3.0.2):
+    resolution: {integrity: sha512-UDgaFjpZivLXzmgUUBKDfeT5MtpnXXXeZL731uLNF5rSGiw0NgqhwWsTGjlJbz2+aHr9VWP1dPNgcvNbI+4IjA==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
       '@ianvs/prettier-plugin-sort-imports': 4.1.0(prettier@3.0.2)
       prettier: 3.0.2
       prettier-plugin-css-order: 2.0.0(postcss@8.4.27)(prettier@3.0.2)
-      prettier-plugin-tailwindcss: 0.4.1(@ianvs/prettier-plugin-sort-imports@4.1.0)(prettier-plugin-css-order@2.0.0)(prettier@3.0.2)
+      prettier-plugin-tailwindcss: 0.5.3(@ianvs/prettier-plugin-sort-imports@4.1.0)(prettier-plugin-css-order@2.0.0)(prettier@3.0.2)
     transitivePeerDependencies:
       - '@prettier/plugin-pug'
       - '@shopify/prettier-plugin-liquid'
@@ -1152,16 +1152,16 @@ packages:
       - postcss
     dev: true
 
-  /prettier-plugin-tailwindcss@0.4.1(@ianvs/prettier-plugin-sort-imports@4.1.0)(prettier-plugin-css-order@2.0.0)(prettier@3.0.2):
-    resolution: {integrity: sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==}
-    engines: {node: '>=12.17.0'}
+  /prettier-plugin-tailwindcss@0.5.3(@ianvs/prettier-plugin-sort-imports@4.1.0)(prettier-plugin-css-order@2.0.0)(prettier@3.0.2):
+    resolution: {integrity: sha512-M5K80V21yM+CTm/FEFYRv9/9LyInYbCSXpIoPAKMm8zy89IOwdiA2e4JVbcO7tvRtAQWz32zdj7/WKcsmFyAVg==}
+    engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
       '@prettier/plugin-pug': '*'
       '@shopify/prettier-plugin-liquid': '*'
       '@shufo/prettier-plugin-blade': '*'
       '@trivago/prettier-plugin-sort-imports': '*'
-      prettier: ^2.2 || ^3.0
+      prettier: ^3.0
       prettier-plugin-astro: '*'
       prettier-plugin-css-order: '*'
       prettier-plugin-import-sort: '*'
