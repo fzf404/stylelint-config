@@ -18,7 +18,7 @@ dependencies:
 devDependencies:
   '@fzf404/prettier-config':
     specifier: ^0.5.3
-    version: 0.5.4(postcss@8.4.27)(prettier@3.0.2)
+    version: 0.5.9(postcss@8.4.27)(prettier@3.0.2)
   prettier:
     specifier: ^3.0.1
     version: 3.0.2
@@ -255,8 +255,8 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: false
 
-  /@fzf404/prettier-config@0.5.4(postcss@8.4.27)(prettier@3.0.2):
-    resolution: {integrity: sha512-UDgaFjpZivLXzmgUUBKDfeT5MtpnXXXeZL731uLNF5rSGiw0NgqhwWsTGjlJbz2+aHr9VWP1dPNgcvNbI+4IjA==}
+  /@fzf404/prettier-config@0.5.9(postcss@8.4.27)(prettier@3.0.2):
+    resolution: {integrity: sha512-vyC57KKCYZuyDLgny1egPaosPioT18ruuRzcEhYBbyn4BQguUaMST8MTALqS49TRcuNFgsds8gbuOgMUt7EFpQ==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
