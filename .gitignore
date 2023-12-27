@@ -1,9 +1,12 @@
+# build
+dist
+
 # os
 .DS_Store
 
-# depend
-node_modules
-pnpm-lock.yaml
-
 # cache
 .stylelintcache
+
+# package
+node_modules
+pnpm-lock.yaml
