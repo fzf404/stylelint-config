@@ -9,13 +9,20 @@ My personal Stylelint config ( 我的 Stylelint 配置 )
 
 ## Features ( 特性 )
 
-- Support SCSS lint ( 支持 SCSS 语法检查 )
-- Compatible with Prettier 3 ( 兼容 Prettier 3 )
+- Support SCSS order ( 支持 SCSS 排序 )
+- Compatible Prettier 3 ( 兼容 Prettier 3 )
 
 ## Install ( 安装 )
 
 ```bash
+# npm
 npm i -D stylelint @fzf404/stylelint-config
+
+# yarn
+yarn i -D stylelint @fzf404/stylelint-config
+
+# pnpm
+pnpm i -D stylelint @fzf404/stylelint-config
 ```
 
 ## Usage ( 使用 )
@@ -23,15 +30,23 @@ npm i -D stylelint @fzf404/stylelint-config
 Edit `package.json` ( 编辑 `package.json` )
 
 ```jsonc
-// script
-"scripts": {
-  "lint": "stylelint --cache --fix '**/*.scss'",
+{
+  "scripts": {
+    "lint": "stylelint --cache --fix '**/*.scss'"
+  },
+  "stylelint": {
+    "extends": ["@fzf404/stylelint-config"]
+  }
 }
+```
 
-// config
-"stylelint": {
-  "extends": [
-    "@fzf404/stylelint-config"
-  ]
+Edit `Visual Studio Code` Setting ( 编辑 `Visual Studio Code` 设置 )
+
+```jsonc
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "stylelint.validate": ["scss"]
 }
 ```
