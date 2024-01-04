@@ -1,8 +1,8 @@
 # @fzf404/stylelint-config
 
-[![npm](https://img.shields.io/npm/v/@fzf404/stylelint-config?color=f03e3e)](https://npmjs.com/package/@fzf404/stylelint-config)
-[![star](https://img.shields.io/github/stars/fzf404/stylelint-config?color=1c7ed6)](https://github.com/fzf404/stylelint-config)
-[![license](https://img.shields.io/npm/l/@fzf404/stylelint-config?color=37b24d)](https://github.com/fzf404/stylelint-config/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@fzf404/stylelint-config?style=flat&color=f03e3e)](https://npmjs.com/package/@fzf404/stylelint-config)
+[![star](https://img.shields.io/github/stars/fzf404/stylelint-config?style=flat&color=1c7ed6)](https://github.com/fzf404/stylelint-config)
+[![license](https://img.shields.io/npm/l/@fzf404/stylelint-config?style=flat&color=37b24d)](https://github.com/fzf404/stylelint-config/blob/main/LICENSE)
 [![language](https://img.shields.io/badge/language-简体中文-f76707)](https://github.com/fzf404/stylelint-config)
 
 My personal Stylelint config ( 我的 Stylelint 配置 )
