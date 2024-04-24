@@ -8,38 +8,31 @@
     "type": "git",
     "url": "git+https://github.com/fzf404/stylelint-config.git"
   },
-  "files": [
-    "config.js"
-  ],
-  "main": "config.js",
+  "main": "index.js",
   "scripts": {
     "lint:eslint": "eslint --cache --fix .",
     "lint:prettier": "prettier --cache --write .",
     "lint:stylelint": "stylelint --cache --fix '**/*.scss'"
   },
-  "peerDependencies": {
-    "stylelint": "^16.1.0"
-  },
   "dependencies": {
+    "stylelint": "^16.4.0",
     "stylelint-config-property-sort-order-smacss": "^10.0.0",
     "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-prettier": "^5.0.0"
   },
   "devDependencies": {
-    "@fzf404/eslint-config": "^0.5.12",
-    "@fzf404/prettier-config": "^0.7.0",
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5"
+    "@fzf404/eslint-config": "^0.6.4",
+    "@fzf404/prettier-config": "^0.7.0"
   },
   "prettier": "@fzf404/prettier-config",
-  "stylelint": {
-    "extends": [
-      "./config.js"
-    ]
-  },
   "eslintConfig": {
     "extends": [
       "@fzf404/eslint-config"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "./index.js"
     ]
   }
 }

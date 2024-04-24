@@ -16,13 +16,13 @@ My personal Stylelint config ( 我的 Stylelint 配置 )
 
 ```bash
 # npm
-npm i -D stylelint @fzf404/stylelint-config
+npm i -D @fzf404/stylelint-config
 
 # yarn
-yarn i -D stylelint @fzf404/stylelint-config
+yarn i -D @fzf404/stylelint-config
 
 # pnpm
-pnpm i -D stylelint @fzf404/stylelint-config
+pnpm i -D @fzf404/stylelint-config
 ```
 
 ## Usage ( 使用 )
@@ -32,11 +32,11 @@ Edit `package.json` ( 编辑 `package.json` )
 ```jsonc
 {
   "scripts": {
-    "lint": "stylelint --cache --fix '**/*.scss'"
+    "lint": "stylelint --cache --fix '**/*.scss'",
   },
   "stylelint": {
-    "extends": ["@fzf404/stylelint-config"]
-  }
+    "extends": ["@fzf404/stylelint-config"],
+  },
 }
 ```
 
@@ -45,8 +45,8 @@ Edit `Visual Studio Code` Setting ( 编辑 `Visual Studio Code` 设置 )
 ```jsonc
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
+    "source.fixAll": "explicit",
   },
-  "stylelint.validate": ["scss"]
+  "stylelint.validate": ["scss"],
 }
 ```
