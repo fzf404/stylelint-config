@@ -17,12 +17,12 @@
   "dependencies": {
     "stylelint": "^16.4.0",
     "stylelint-config-property-sort-order-smacss": "^10.0.0",
-    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-config-standard-scss": "^13.1.0",
     "stylelint-prettier": "^5.0.0"
   },
   "devDependencies": {
-    "@fzf404/eslint-config": "^0.6.4",
-    "@fzf404/prettier-config": "^0.7.0"
+    "@fzf404/eslint-config": "^0.6.7",
+    "@fzf404/prettier-config": "^0.7.5"
   },
   "prettier": "@fzf404/prettier-config",
   "eslintConfig": {
