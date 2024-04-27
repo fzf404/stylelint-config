@@ -21,8 +21,8 @@
     "stylelint-prettier": "^5.0.0"
   },
   "devDependencies": {
-    "@fzf404/eslint-config": "^0.6.4",
-    "@fzf404/prettier-config": "^0.7.0"
+    "@fzf404/eslint-config": "^0.6.7",
+    "@fzf404/prettier-config": "^0.7.5"
   },
   "prettier": "@fzf404/prettier-config",
   "eslintConfig": {
