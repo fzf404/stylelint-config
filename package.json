@@ -14,8 +14,10 @@
     "lint:prettier": "prettier --cache --write .",
     "lint:stylelint": "stylelint --cache --fix '**/*.scss'"
   },
+  "peerDependencies": {
+    "stylelint": "^16.4.0"
+  },
   "dependencies": {
-    "stylelint": "^16.4.0",
     "stylelint-config-property-sort-order-smacss": "^10.0.0",
     "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-prettier": "^5.0.0"
