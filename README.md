@@ -15,14 +15,7 @@ My personal Stylelint config ( 我的 Stylelint 配置 )
 ## Install ( 安装 )
 
 ```bash
-# npm
-npm i -D @fzf404/stylelint-config
-
-# yarn
-yarn i -D @fzf404/stylelint-config
-
-# pnpm
-pnpm i -D @fzf404/stylelint-config
+pnpm i -D stylelint @fzf404/stylelint-config
 ```
 
 ## Usage ( 使用 )
