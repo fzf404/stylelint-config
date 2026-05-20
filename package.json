@@ -18,7 +18,7 @@
     "stylelint": "^16.4.0"
   },
   "dependencies": {
-    "stylelint-config-property-sort-order-smacss": "^10.0.0",
+    "stylelint-config-property-sort-order-smacss": "^11.2.0",
     "stylelint-config-standard-scss": "^16.0.0",
     "stylelint-prettier": "^5.0.3"
   },
